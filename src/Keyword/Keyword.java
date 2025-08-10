@@ -9,7 +9,7 @@ public class Keyword {
         System.out.println("Static variable: " + staticVariable);
         Keyword obj = new Keyword();
         System.out.println("The non static variable:"+obj.a);
-        //System.out.println(finalVariable);
+
     }
     void nonStaticMethod() {
         System.out.println("This is a non-static method");
